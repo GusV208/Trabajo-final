@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+
+body{
+    padding-top: 205px;
+}
+
+.Primer-header{
+    text-align: center;
+    background-color: #E7B8FF;
+    width: 100%;     
+    position: fixed;
+    z-index: 1; 
+    margin-top: -205px;  
+          
+}
+
+
+/* Quedo anulado ya que se utilizó un nav de bootstrap
+
+ul a li{
+    list-style: none;
+    color: black;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    padding: 0;
+}
+.contenedor a{
+    color:#8e8e8e;
+}
+
+.contenedor a:hover{
+    color: rgb(75, 0, 130);
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.opciones{
+    background-color: white;
+    width: 20%;
+    height: 30px;
+    font-size: 20px; 
+}
+*/
+
+.container-fluid:hover{
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+.animate__animated{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 50px;
+}
+
+.Subtítulo{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 22px;
+}
+
+/*Main*/
+
+.form-contact{
+    border-style:outset;
+    border-bottom-width: 5px;
+    padding: 50px;
+    text-align: center;
+    background-image: url(../Imágenes/clothes.jpg);
+    background-size: cover;
+
+}
+
+h2{
+    background-color:#6E2BFF;
+    text-align: center;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 1PX solid rgb(0, 0, 0);
+}
+
+h3 i{
+    color:white;
+    font-size: 50px;
+    text-shadow: 2px 2px 7px #000;
+
+}
+
+h4{
+    background-color:#E7B8FF;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        
+}
+
+/* .caja-seccion{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+} 
+
+.caja-prenda{
+    background-color: white;
+    padding-bottom: 1px;
+    margin: 1px;
+    
+} */
+
+.table{
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px;
+    background-image: url(../Imágenes/Tarjetas\ fondo.jpeg);
+    background-size: contain;
+    
+}
+
+.tabla-integrantes{
+    display: flex;
+    justify-content: center;
+}
+
+.tabla-integrantes td{
+    background-color: #E7B8FF;
+    padding: 20px 20px;
+    
+}
+
+.img-emp{
+    justify-content: center;
+    border-radius: 5%;
+    padding: 20px;
+    
+}
+
+.emp{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    text-align: center;
+    color:rgba(0, 0, 0, 0.705);
+    
+}
+
+.Semana{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4em;
+    text-align: center;
+    color:rgba(0, 0, 0, 0.705);
+    text-shadow: 2px 2px 7px #000;
+}
+
+.Dias1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color:rgb(0, 0, 0);
+    text-shadow: 2px 2px 7px #000;
+}
+
+.Dias2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(129, 3, 3);
+    font-size: 2em; 
+    text-shadow: 2px 2px 7px rgb(129, 3, 3);           
+}
+
+.Horarios1{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 2px 2px 7px #000;
+}
+
+.Horarios2{
+    color:rgb(129, 3, 3);
+    text-align:center;
+    font-size: 2em;
+    text-shadow: 2px 2px 7px rgb(129, 3, 3);
+}
+
+/* Para las tarjetas de index */
+.col{
+    padding: 50px;
+}
+
+/*Carrusel*/
+
+.d-item{
+    height: 500px;
+}
+
+.d-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+/*Aside*/
+
+.container-aside{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;                
+}
+
+.flex-item{
+    background-color: #E7B8FF;
+    margin: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 400px;
+    text-align: center;
+    
+}
+
+.flex-item ul li{
+    list-style: none;
+}
+
+.flex-item2{
+    background-color: #E7B8FF;
+    margin: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+.aside-principal{
+    background-color: #000;
+}
+
+.aside-sale{
+    float: right;
+    width: 50%;
+    margin: 25px;
+
+}
+
+.aside-video{
+    display:flex;
+    flex: column;
+    justify-content: center;
+
+    
+}
+
+/*No utilizado aún*/
+
+/*Primer footer - Quedo anulado - se utilizó un footer de bootstrap
+
+.Primer-footer{
+    background-color: rgb(193, 199, 136);
+    width: 100%; 
+    height: 30px;
+    text-align: center;
+}
+*/
+
+/*Footer bootstrap*/
+
+a{
+    text-decoration: none !important; /*mal uso del important...consultar como hacer para que realice lo solicitado sin el uso del mismo*/
+    font-size: 17px;
+}
+
+p{
+    font-size: 17px;
+}
+
+a:hover{
+    color: #c50dfd !important; /*mal uso del important...consultar como hacer para que realice lo solicitado sin el uso del mismo*/
+}
+
+i{
+    font-size: 20px;
+}
+
+
